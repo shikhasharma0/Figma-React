@@ -1,0 +1,66 @@
+#info {
+    min-height: 120vh;
+    background: url("../../assets/Sound.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+#info .info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 4px
+
+}
+
+#info .info-content img {
+    width: 20%;
+    transition: all 400ms ease;
+}
+
+#info .info-content img:hover {
+    transform: scale(1.04);;
+
+}
+
+#info .image-info {
+    width: 30%;
+    transition: all 400ms ease;
+
+}
+
+#info .image-info:hover {
+    transform: scale(1.04);;
+
+}
+
+#info .image-info2 {
+    width: 30%;
+    margin-left: 400px;
+    transition: all 400ms ease;
+
+}
+
+#info .image-info2:hover {
+    transform: scale(1.04);;
+
+}
+
+
+#info .info-content .icon {
+    font-weight: 800;
+    font-size: 50px;
+    color:aqua;
+
+}
+
+#info .info-content .type {
+    font-family: "Alegreya", serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(233, 22, 22);
+}
+
